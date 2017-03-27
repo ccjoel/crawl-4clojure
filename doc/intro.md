@@ -1,3 +1,3 @@
 # Introduction to crawl-4clojure
 
-TODO: write [great documentation](http://jacobian.org/writing/what-to-write/)
+No docs for this simple "script" ...

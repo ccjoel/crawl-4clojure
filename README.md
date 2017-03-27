@@ -1,16 +1,17 @@
 # crawl-4clojure
 
-Get cookie from network tools after login in to 4clojure, at set on http call headers
+This is a small utility project to get all my 4clojure solutions nicely formatted
+to a file, including problem description.
 
-FIXME: description
-
-## Installation
-
-Download from http://example.com/FIXME.
+Get the "ring-session-id" cookie contents from network tools after login in to
+4clojure, and set under resources/config.edn. See resources/config.edn.sample
+for an example file with needed edn key.
 
 ## Usage
 
-FIXME: explanation
+You can either do `boot run` to get a file with exercises 1-150 inspected (will only saveto file the ones with solutions)
+
+Or, you can start a boot repl and play around with it incrementally.
 
 Run the project directly:
 
@@ -28,25 +29,10 @@ Run the uberjar:
 
     $ java -jar target/crawl-4clojure-0.1.0-SNAPSHOT-standalone.jar [args]
 
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
 
 ## License
 
-Copyright © 2017 FIXME
+Copyright © 2017 Joel Quiles
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
