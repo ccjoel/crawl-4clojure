@@ -6,16 +6,15 @@
           :dependencies   '[[org.clojure/clojure "RELEASE"]
                             [adzerk/boot-test "RELEASE" :scope "test"]
                             [http-kit "2.2.0"]
-                            [clj-tagsoup "0.3.0"]
                             [enlive "1.1.6"]])
 
 (task-options!
  aot {:namespace   #{'crawl-4clojure.core}}
  pom {:project     project
       :version     version
-      :description "FIXME: write description"
-      :url         "http://example/FIXME"
-      :scm         {:url "https://github.com/yourname/crawl-4clojure"}
+      :description "Get all your 4clojure problems with your solutions!"
+      :url         "http://teh0xqb.github.io"
+      :scm         {:url "https://github.com/teh0xqb/crawl-4clojure"}
       :license     {"Eclipse Public License"
                     "http://www.eclipse.org/legal/epl-v10.html"}}
  jar {:main        'crawl-4clojure.core

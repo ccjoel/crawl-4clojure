@@ -1,11 +1,14 @@
 # crawl-4clojure
 
 This is a small utility project to get all my 4clojure solutions nicely formatted
-to a file, including problem description.
+to a file, including problem descriptions.
 
-Get the "ring-session-id" cookie contents from network tools after login in to
+Get the "ring-session-id" cookie contents from network tools after log in to
 4clojure, and set under resources/config.edn. See resources/config.edn.sample
 for an example file with needed edn key.
+
+Output will be under pwd when running main/core or when using repl,  with
+filename: problems-solved.clj .
 
 ## Usage
 
