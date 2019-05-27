@@ -75,4 +75,4 @@
 (defn -main
   "Will loop through app problems, populating result file"
   [& args]
-  (get-all-problems 1 150))
+  (get-all-problems 150))
